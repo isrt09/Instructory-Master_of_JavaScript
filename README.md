@@ -9,12 +9,12 @@ Master of Core JavaScript with ES6
  - 6 Variable Part 03
  - 7 JavaScript Operator
  - 8 String Operator
- - 9 Operator  01
- - 10 Operator 02
- – 11 Data Types 01
+ - 9 Operator  part 01
+ - 10 Operator part 02
+ – 11 Data Types 
  – 12 Number Data Type 
  – 13 String Data Type 
- - 14 Data Type 02 
+ - 14 Data Type part 02 
  - 15 Boolean Data Type
  – 16 Array Data Type 
  – 17 Array Data Type 
