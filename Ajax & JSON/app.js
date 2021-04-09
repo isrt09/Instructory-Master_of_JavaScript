@@ -37,7 +37,7 @@ document.getElementById('app').addEventListener('click',function(){
 });
 
 
-// Technique Three : Data Fetch from Real API Data
+// Technique Four : Data Fetch from Real API Data
 document.getElementById('app').addEventListener('click',function(){
     let number = document.getElementById('get_joke').value; 
     let xhr = new XMLHttpRequest();
@@ -47,6 +47,33 @@ document.getElementById('app').addEventListener('click',function(){
             let data = JSON.parse(this.responseText);
             let joke = data.value;
             console.log(joke);
+        }
+    }
+    xhr.send();
+});
+
+
+// Technique Five : Display Data Fetch from Real API Data
+
+document.getElementById('app').addEventListener('click',function(){
+    let number = document.getElementById('get_joke').value; 
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET',`http://api.icndb.com/jokes/random/${number}`, true);
+    xhr.onprogress = function(){
+        document.getElementById('test').innerHTML = `<h2>Loading ................. </h2>`;
+    };
+    xhr.onload = function(){
+        if(this.status == 200){
+            let data = JSON.parse(this.responseText);
+            let jokes = data.value;
+            console.log(jokes);
+            let result = "<ol>"
+            jokes.forEach(function(item){                
+                result+= `<li>${item.joke}</li>`; // result = <ol><li>joke</li>
+            });
+            result+="</ol>";                    // result = <ol><li>joke</li> + </ol>
+            console.log(result);
+            document.getElementById('test').innerHTML = result;
         }
     }
     xhr.send();
