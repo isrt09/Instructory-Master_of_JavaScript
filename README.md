@@ -1,39 +1,32 @@
 # Instructory ~ Master of JavaScript : Basic to Advanced
 Master of Core JavaScript with ES6
 
- - 1 How to Work JavaScript
- - 2 Syntax
- - 3 User Input
- - 4 Variable part 01
- - 5 Variable part 02
- - 6 Variable Part 03
- - 7 JavaScript Operator
- - 8 String Operator
- - 9 Operator  part 01
- - 10 Operator part 02
- – 11 Data Types 
- – 12 Number Data Type 
- – 13 String Data Type 
- - 14 Data Type part 02 
- - 15 Boolean Data Type
- – 16 Array Data Type 
- – 17 Array Data Type 
- - 18 Object 
- - 19 More Array & Object
- - 20 undefine- null- NaN
- - 21 premetive data type and reference data type
- - 23 Control Flow
- - 24 Condition part 01
- - 25 Condition part 02
- - 26 Switch Statement
- - 27 Condition Exercise
- - 28 Loop
- - 29 For loop
- - 30 While
- - 31 Do while Loop 
- - 32 Break and Continue 
- - 33 Array Traversing
- – 34 For in and For off Loop 
- – 35 For Loop and For in Loop 
- - 36 Function
+ - Workflow of JavaScript
+ - Syntax
+ - User Input
+ - Variable 
+ - JavaScript Operator
+ - String Operator 
+ – Data Types 
+ – Number Data Type 
+ – String Data Type  
+ - Boolean Data Type
+ – Array Data Type 
+ - Object 
+ - More Array & Object
+ - undefine- null- NaN
+ - premetive data type and reference data type
+ - Control Flow
+ - If, If-else, If else-if else
+ - For, Foreach
+ - Switch Statement 
+ - Loop
+ - For loop
+ - While
+ - Do while Loop 
+ - Break and Continue 
+ - Array Traversing
+ – For in and For off Loop 
+ – For Loop and For in Loop 
+ - Function
 
